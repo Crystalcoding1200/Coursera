@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Registration form</title>
+        <link href='style.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width,initial-scale=1" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+  
+      <style> 
+      body {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: 'Neucha', cursive;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  ul {
+              list-style-type: none;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333 ;
+              position: sticky;
+              top: 0;
+              
+              
+            }
+            
+            li {
+              float: left;
+              
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              
+            }
+            
+            li a:hover {
+              background-color: cornflowerblue;
+            }
+  
+#Post-1, #Post-2, #Post-3, #Post-4{
+    float: left;
+  width: 33.33%;
+  padding: 10px;
+  border:5px solid white; 
+  margin:80px; 
+  background-color: white;
+  color:black;
+}  
+
+form{
+    border:5px dashed white; 
+    width: fit-content;
+    padding:10px; 
+    margin-left:400px;
+
+}
+
+.star{
+    height:100px ;
+    width:100px;
+}
+#button {
+   
+    border-style:outset;
+    border-color:white;
+    height:50px;
+    width:100px;
+    font-family: 'Neucha', cursive;
+    font-size: x-large;
+    text-shadow:none;
+    background-color: cornflowerblue;
+    color:white;
+}
+
+#About{
+
+    font-size: 25px;
+
+}
+
+
+
+      </style>
+  
+  </head>
+
+    <body>
+
+        <div> 
+            <ul> <li><a href="home.html"> HOME</a> </li>
+                 <li> <a href=""> ABOUT</a> </li>
+                <li> <a href=""> POSTS</a> </li>
+                <li style="background-color:cornflowerblue;"> <a href=""> REGISTER</a> </li>
+            </div> 
+        <div>
+            <h1 style="  border:5px dashed white; width:fit-content; margin-left:500px; padding:15px;">Registration Form</h1>
+            <br><br><p>Sign up now and get daily updates with our exclusive giveaways. If you enter, you will be added to our spinner round, and you get the chance to be the lucky winner. The winner would get his/hers desired book with a bookmark. </p> <h4> Sign Up Now!!!! </h4><br>
+
+        
+            </div>
+        
+            <div> 
+        
+                <form id="form"> 
+              
+               <label for="first-name">First name: </label>
+               <input type="text" name= "first-name" placeholder="Sara" required> 
+        
+               <label for="last-name">Last name: </label>
+               <input type="text" name= "last-name" placeholder="Baliga" required> <br>  <br>
+        
+              <div> 
+               <label for "gender-male">Male</label>
+               <input type="radio" name="gender" choice="choice-1"> 
+        
+               <label for "gender-female">female</label>
+               <input type="radio" name="gender" choice="choice-2"> 
+        
+               <label for "gender-other">Other</label>
+               <input type="radio" name="gender" choice="choice-3"> 
+        
+               </div><br>  <br>
+        
+               <label for "email">Email</label>
+               <input type="email" name="email" placeholder="abc@email.com"><br>  <br>
+               
+               <label for "Password">Password</label>
+               <input type="password" name="password" choice="choice-1"> <br>  <br>
+        
+        
+        
+               <div> 
+                   <label for="month">Birthday:</label> 
+                   <select name="month">
+        
+                       <option value= "0" selected disabled></option>
+                       <option value="jan">January</option>
+                       <option value="feb">February</option>
+                       <option value="march">March</option>
+                       <option value="april">April</option>
+                       <option value="may">May</option>
+                       <option value="june">June</option>
+                       <option value="july">July</option>
+                       <option value="aug">August</option>
+                       <option value="sep">September</option>
+                       <option value="oct">October</option>
+                       <option value="nov">Novemeber</option>
+                       <option value="dec">December</option>
+        
+                 
+        
+        
+        
+                   </select><br>  <br>
+        
+               </div>
+        
+               <p>By creating an account you agree to our <a style="color:cornflowerblue;"href="#">Terms & Privacy</a>.</p>
+        
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        
+        <datalist id="browsers">
+         <option value="Edge">
+         <option value="Firefox">
+         <option value="Chrome">
+         <option value="Opera">
+         <option value="Safari">
+        </datalist>
+        <br> <br>
+               <button id="button" type="submit">Submit</button>
+        
+        </form>
+           
+            
+               
+               </form> 
+
+               <br><br><br>
+
+               <img class="star"src=".png"> <img class="star" src=".png"> <img class="star" src=".png"> <img class="star" src=".png"> <img class="star" src=".png">
+                
+    </body>
+</html>
